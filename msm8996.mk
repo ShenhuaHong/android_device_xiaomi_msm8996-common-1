@@ -139,7 +139,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service \
     camera.device@3.2-impl \
-    Snap \
+    Camera2 \
     camera.msm8996 \
     libmm-qcamera \
     vendor.qti.hardware.camera.device@1.0 \
