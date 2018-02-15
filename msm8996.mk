@@ -263,7 +263,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.xiaomi_8996
 
-# LiveDisplay native
+#Live Display native
 PRODUCT_PACKAGES += \
     libjni_livedisplay
 
@@ -343,11 +343,6 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-full \
     librmnetctl \
     libxml2
-
-# Live Wallpapers
-PRODUCT_PACKAGES += \
-    LiveWallpapersPicker \
-    librs_jni    
 
 # Seccomp policy
 PRODUCT_COPY_FILES += \
