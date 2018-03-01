@@ -139,7 +139,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service \
     camera.device@3.2-impl \
-    Camera2 \
+    SnapdragonCamera \
     camera.msm8996 \
     libmm-qcamera \
     vendor.qti.hardware.camera.device@1.0 \
@@ -292,10 +292,6 @@ PRODUCT_PACKAGES += \
     nfc_nci.msm8996 \
     NfcNci \
     Tag
-
-# Offline charging animation
-PRODUCT_PACKAGES += \
-    charger_res_images
 
 # OMX
 PRODUCT_PACKAGES += \
